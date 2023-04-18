@@ -1,0 +1,44 @@
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 10px;
+}
+header button{
+    background-color: #2b78e4;
+    color: azure;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+.right{
+    border: 2px solid black;
+    flex: 1;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+}
+.left{
+    border: 2px solid black;
+    /* margin-top: 20px; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex: 2.5;
+    margin: 10px 10px 10px 0px;
+}
+.right-left{
+    width: 180px;
+    margin: 10px;
+}
+.left-left button{
+    background-color: #ffd966;
+    box-shadow: 2px 2px black;
+}
